@@ -30,6 +30,7 @@ nav {
   background-color: var(--dark-grey);
   text-align: center;
   font-weight: bold;
+  z-index: 5;
 }
 
 .nav-bar a:hover, a, a:visited, a:focus, a:active {
