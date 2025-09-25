@@ -291,24 +291,27 @@ main {
 #contact-text {
   margin: auto;
   font-size: 1.0em;
-  width: 600px;
+  width: 550px;
   padding-bottom: 30px;
 }
 
 #contact-info {
-  display: flex;
+  margin: auto;
+  align-items: center;
 }
 
 #contact-form {
   margin: auto;
   padding-top: 30px;
-  width: 800px;
+  width: 80%;
+  max-width: 800px;
   height: 370px;
   border: 5px solid var(--off-white);
 }
 
 #f-name, #l-name, #email {
   display: flex;
+  position: relative;
   margin: auto;
   align-items: center;
   width: 350px;
