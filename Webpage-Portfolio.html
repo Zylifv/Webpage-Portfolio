@@ -8,7 +8,9 @@
     <title>RAM webpage</title>
   </head>
     <body>
+      
       <nav>
+        <div id="wrapper">
         <div class="nav-bar">
           <a href="#">Welcome <i class="fa fa-coffee"></i></a>
           <a href="#about">About  <i class='fa fa-user-circle'></i></a>
@@ -21,39 +23,84 @@
           <h2 class="slide-in-left">Hi, I'm <span class="blue-styling">Robert</span>.</h2>
             <p id="introduction"><b>I am a web developer.</b></p>
               <a href="#projects">
-                <div class="slide-in">
-                  <button id="view-work" class="btn">View projects <i class="fa fa-arrow-down"></i></button></a>
-                </div>
+              <div class="slide-in">
+                <button id="view-work" class="btn">View projects <i class="fa fa-arrow-down"></i></button></a>
+              </div>
         </section>
           
         <section id="about">
-          <div id="about-me">
-            <p>I am self taught in <b>HTML,  CSS,  Javascript,  Typescript,  REACT,  C#</b> and <b>.NET</b></p>
-              <div class="language-logos">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/HTML5_Badge.svg" id="html-logo" alt="HTML-logo">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg" id="css-logo" alt="CSS-logo">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2048px-Unofficial_JavaScript_logo_2.svg.png" id="js-logo" alt="JS-logo">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Typescript.svg/1200px-Typescript.svg.png" id="ts-logo" alt="Typescript-logo">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" id="react-logo" alt="REACT-logo">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Logo_C_sharp.svg" id="c-sharp-logo" alt="C#-logo">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Microsoft_.NET_logo.svg/768px-Microsoft_.NET_logo.svg.png" id=".net-logo" alt=".NET-logo">
-              </div>
-            <p>Please look at some of my <span class="red-styling"><b>projects</b></span> below:</p>
+          <h3>About me:</h3>
+            <div id="about-me">
+              <p>I am self taught and proficient in <b>HTML,  CSS,  Javascript,  Typescript,  REACT,  C#</b> and <b>ASP.NET</b></p>
+                <div class="language-logos">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/HTML5_Badge.svg" id="html-logo" alt="HTML-logo">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg" id="css-logo" alt="CSS-logo">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2048px-Unofficial_JavaScript_logo_2.svg.png" id="js-logo" alt="JS-logo">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Typescript.svg/1200px-Typescript.svg.png" id="ts-logo" alt="Typescript-logo">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" id="react-logo" alt="REACT-logo">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Logo_C_sharp.svg" id="c-sharp-logo" alt="C#-logo">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Microsoft_.NET_logo.svg/768px-Microsoft_.NET_logo.svg.png" id=".net-logo" alt=".NET-logo">
+            </div><!--LANGUAGE-LOGOS-->
+          <div class="github-link-info">
+            <a href="https://github.com/Zylifv" alt="GitHub-link" class="github-link"><img src="https://logos-world.net/wp-content/uploads/2020/11/GitHub-Logo.png" width="100px" height="50px"></a>
+          </div>
+            <p>You can find my <span class="red-styling"><b>GitHub</b></span> profile using the icon link above, or alternatively, you can preview some of my <span class="red-styling"><b>projects</b></span> below:</p>
+            <p id="interactive-info">These projects are <span class="blue-styling"><b>interactive</b></span>!</p>
           </div>
         </section>
         
         <section id="projects">
         <div id="projects-section">
-          <h2>My Projects:</h2>
-            
+          <h2><u>My Projects</u>:</h2>
+            <h3>Custom <span class="blue-styling">Regex Sandbox</span></h3>
+              <div id="regex-sandbox-project">
+                <embed src="https://codepen.io/BobbyArmac/full/raxVvbg" id="regex-sandbox">
           </div>
+                <div id="regex-sandbox-info"><p width="600px" style="display: inline-block">A custom Regex sandbox that allows users to choose various expression tests, then see the results on strings and highlighted matches in real time.</p>
+                <a href="https://github.com/Zylifv/Regex-Sandbox" alt="github-code-link"><button class="btn">More info <i class="fa fa-angle-double-right"></i></button></a></div>
+          
+          <h3><span class="red-styling">Voltorb Flip </span>Clone</h3>
+            <div id="voltorb-flip-project">
+              <embed src="https://codepen.io/BobbyArmac/full/pomWmKO" id="voltorb-flip">
+            </div>
+              <div id="voltorb-flip-info">My version of the Pokémon™ mini-game "Voltorb flip".
+                <a href="https://github.com/Zylifv/Voltorb-Flip-Game" alt="github-code-link" height="400px" width="400px"><button class="btn">More info <i class="fa fa-angle-double-right"></i></button></a>
+              </div>
+          
+          <h3>CRUD <span class="blue-styling">Todo App</span></h3>
+            <div id="todo-app-project">
+              <embed src="https://codepen.io/BobbyArmac/full/xbbzvpM" id="todo-app">
+          </div>
+            <div id="todo-app-info"><p width="600px" style="display: inline-block">A simple CRUD Todo-app that lets users create notes, edit and delete with a responsive counter for active tasks.</p>
+              <a href="https://github.com/Zylifv/ToDo-App" alt="github-code-link"><button class="btn">More info <i class="fa fa-angle-double-right"></i></button></a>
+            </div>
+          
+          </div><!--PROJECTS SECTION END DIV-->
         </section>
         
         <section id="contact">
-        <div id="projects-section">You can contact me via: </div>
-        </section>
-        
+          <h2>Contact</h2>
+          <div class="contact-info">
+            <p id="contact-text">To get in contact with me regarding my <span class="blue-styling"><b>code</b></span> or <span class="red-styling"><b>career opportunities</b></span>, please fill out the short email form below and i will be in touch with you:</p>
+            <form id="contact-form">
+              <label for="first-name"><b>First Name:</b></label>
+              <input type="text" id="f-name" name="firstname" placeholder="First name...">
+              
+              <label for="first-name"><b>Last Name:</b></label>
+              <input type="text" id="l-name" name="lastname" placeholder="Last name...">
+              
+              <label for="email"><b>Email address:</b></label>
+              <input type="email" id="email" name="email" placeholder="e.example@email.com">
+              
+              <label for="subject"><b>More info</b></label>
+              <textarea id="subject" name="subject" maxlength="150"></textarea>
+              <br><br>
+              <button type="submit" value="submit" class="btn"><b>Submit</b></button>
+            </form>
+          </div>
+        </section> 
       </main>
-      <script src="script.js"></script>
+      </div><!--WRAPPER-->
+        <script src="script.js"></script>
       <body>
 </html>
