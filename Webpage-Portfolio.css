@@ -1,9 +1,16 @@
 :root {
   --off-white: #fbfefb;
   --dark-grey: #1e2d2f;
-  --light-grey: #3F4C4D;
+  --light-grey: #536061;
   --neon-blue: #04D9FF;
   --neon-red: #ff073a;
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+    max-width: 767px;
+    width: 767px;
+  }
 }
 
 body {
@@ -309,12 +316,17 @@ main {
   border: 5px solid var(--off-white);
 }
 
-#f-name, #l-name, #email {
+#f-name, #l-name, #email, #subject {
   display: flex;
   position: relative;
   margin: auto;
   align-items: center;
   width: 350px;
+  border: 2px solid var(--light-grey);
+}
+
+#f-name:focus, #l-name:focus, #email:focus, #subject:focus {
+  outline: none;
 }
 
 #subject {
