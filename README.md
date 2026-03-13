@@ -2,7 +2,7 @@
 
 My webpage portfolio as a self-taught developer.
 
-![Portfolio-preview](PortfolioPNG.png)
+![Portfolio-preview](Portfolio-newPNG.png)
 
 I wanted to put together a landing page that would act as a webpage portfolio showing off my projects & some of the skills I have acquired thus far. I would like to eventually add a section about my backend experience which i am currently working on.
 
