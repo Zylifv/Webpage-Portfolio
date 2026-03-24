@@ -6,10 +6,10 @@
   --neon-red: #ff073a;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 600px) {
   body {
-    max-width: 767px;
-    width: 767px;
+    max-width: 600px;
+    width: 600px;
   }
 }
 
@@ -193,6 +193,10 @@ main {
   padding: 15px;
 }
 
+.language-logos > img:hover {
+  filter: saturate(400%);
+}
+
 .github-link-info {
   display: inline-block;
   text-align: center;
@@ -221,7 +225,7 @@ main {
   justify-content: center;
 }
 
-#regex-sandbox-project {
+#online-shop-project {
   position: relative;
   left: 50%;
   transform: translate(-50%, 0%);
@@ -252,9 +256,9 @@ main {
   border: 5px solid var(--off-white);
 }
 
-#regex-sandbox {
+#pasco-bona {
   display: flex;
-  margin-top: -100px;
+  margin-top: -60px;
   width: 800px;
   height: 630px;
   overflow: hidden;
@@ -278,7 +282,7 @@ main {
   overflow: hidden;
 }
 
-#regex-sandbox-info, #voltorb-flip-info, #todo-app-info {
+#online-shop-info, #voltorb-flip-info, #todo-app-info {
   margin-top: 30px;
   display: inline-block;
   padding: 10px;
